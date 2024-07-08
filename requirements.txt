@@ -66,6 +66,8 @@ tqdm==4.64.0
 tqdm>=4.50.0
 higher
 tqdm<5.0.0
+tensorflow==2.7.0
 keras==2.7.0
+
 
 
