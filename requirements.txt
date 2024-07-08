@@ -62,4 +62,8 @@ tensorboard==2.16.2
 tensorboard-data-server==0.7.2
 tensorflow==2.16.2
 tensorflow-estimator==2.13.0
-tqdm
+tqdm==4.64.0
+tqdm>=4.50.0
+higher
+tqdm<5.0.0
+
