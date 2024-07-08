@@ -35,8 +35,7 @@ oauthlib==3.2.2
 opencv-python==4.10.0.84
 opt-einsum==3.3.0
 optree==0.11.0
-package1>=1.2.3,<2.0.0
-package2>=3.4.5,<4.0.0
+
 packaging==24.1
 pandas==2.2.2
 pillow==10.4.0
@@ -46,7 +45,7 @@ pyasn1==0.6.0
 pyasn1_modules==0.4.0
 pydeck==0.9.1
 Pygments==2.18.0
-python_version >= 3.7, < 3.11
+python_version== 1.21.2
 python-dateutil==2.9.0.post0
 pytz==2024.1
 referencing==0.35.1
