@@ -70,8 +70,8 @@ for file in tqdm(filenames):
 timestamp = time.strftime("%Y%m%d-%H%M%S")
 
 # Save the extracted features and filenames to pickle files
-pickle.dump(feature_list, open(f'embeddings_{timestamp}.pkl', 'wb'))
-pickle.dump(filenames, open(f'filenames_{timestamp}.pkl', 'wb'))
+pickle.dump(feature_list, open(f'embeddings.pkl', 'wb'))
+pickle.dump(filenames, open(f'filenames.pkl', 'wb'))
 
 # Save the model using the native Keras format
 model.save(f'resnet_model_{timestamp}.keras')
