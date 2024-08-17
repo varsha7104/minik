@@ -55,3 +55,5 @@ for file in tqdm(filenames):
 
 pickle.dump(feature_list,open('embeddings.pkl','wb'))
 pickle.dump(filenames,open('filenames.pkl','wb'))
+model.save('my_model.keras')
+
