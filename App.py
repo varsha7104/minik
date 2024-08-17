@@ -73,7 +73,7 @@ timestamp = time.strftime("%Y%m%d-%H%M%S")
 pickle.dump(feature_list, open(f'embeddings_{timestamp}.pkl', 'wb'))
 pickle.dump(filenames, open(f'filenames_{timestamp}.pkl', 'wb'))
 
-# Optionally, save the model architecture
-model.save(f'resnet_model_{timestamp}.h5')
+# Save the model using the native Keras format
+model.save(f'resnet_model_{timestamp}.keras')
 
 logging.info("Feature extraction completed and data saved.")
